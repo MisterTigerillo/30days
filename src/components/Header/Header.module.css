@@ -1,0 +1,142 @@
+.header {
+  position: relative;
+  height: 60px;
+  background-color: brown;
+
+  margin-bottom: 15px;
+  /* padding-top: 0; */
+}
+
+.menuIcon {
+  position: absolute;
+  width: 29px;
+  height: 15px;
+  top: 23px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.menuIcon:hover .dashTop,
+.menuIcon:hover .dashBottom,
+.menuIcon:hover .circle {
+  background: #fff;
+}
+
+.dashTop {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  top: 0;
+  left: 0;
+  background: #b2daff;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.dashBottom {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  top: 0;
+  left: 0;
+  background: #b2daff;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 29px;
+  top: auto;
+  bottom: 0;
+}
+
+.circle {
+  position: absolute;
+  height: 7px;
+  width: 7px;
+  border-radius: 4px;
+  top: -2px;
+  right: 0;
+  background: #b2daff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.title {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.searchInput {
+  box-sizing: border-box;
+  position: absolute;
+  top: 13px;
+  right: 55px;
+  width: 200px;
+  height: 34px;
+  border-radius: 17px;
+  border: none;
+  background: #fff;
+  padding: 0 17px;
+  font-size: 13px;
+  color: #666;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(15px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.searchInput.active {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.searchIcon {
+  position: absolute;
+  z-index: 3;
+  font-size: 21px;
+  color: #fff;
+  top: 18px;
+  right: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.searchIcon:hover {
+  color: #fff;
+}
+
+/* .footer {
+  position: relative;
+  background: #fff;
+  margin: auto;
+  height: 30px;
+  border-top: 1px solid #eee;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.footer button {
+  background: #eee;
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  border: 0;
+}
+
+.footer button i {
+  margin: 0 10px;
+}
+ */

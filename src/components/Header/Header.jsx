@@ -1,23 +1,22 @@
+import styles from "./Header.module.css";
 import { Component } from "react";
-import style from "./Header.module.css";
-import '../../App.css'
 
 export class Header extends Component {
   render() {
     return (
-      <div className='{style.header}'>
-        <div className={style.menuIcon}>
-          <div className={style.dashTop}></div>
-          <div className={style.dashBottom}></div>
-          <div className={style.circle}></div>
+      <div className={styles.header}>
+        <div className={styles.menuIcon}>
+          <div className={styles.dashTop}></div>
+          <div className={styles.dashBottom}></div>
+          <div className={styles.circle}></div>
         </div>
-        <span className={style.title}>Timeline</span>
+        <span className={styles.title}>Timeline</span>
         <input
           type="text"
-          className={style.searchInput}
+          className={styles.searchInput}
           placeholder="Search ..."
         />
-        <div className={style.searchIcon}></div>
+        <div className={styles.searchIcon}></div>
       </div>
     );
   }
