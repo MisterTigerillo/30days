@@ -3,7 +3,7 @@
   height: 60px;
   background-color: brown;
 
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   /* padding-top: 0; */
 }
 
@@ -38,14 +38,13 @@
   position: absolute;
   width: 20px;
   height: 3px;
-  top: 0;
   left: 0;
   background: #b2daff;
   border-radius: 3px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   width: 29px;
-  top: auto;
+  /* top: auto; */
   bottom: 0;
 }
 

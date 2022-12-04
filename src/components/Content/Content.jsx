@@ -11,7 +11,9 @@ export class Content extends Component {
     return (
       <div className={style.content}>
         <div className={style.line}></div>
-        <ContentItem activities={activities} />
+        {activities.map(activity => (
+          <ContentItem key={activity.user.id} activity={activity} />
+        ))}
       </div>
     );
   }
