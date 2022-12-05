@@ -28,7 +28,7 @@
   height: 3px;
   top: 0;
   left: 0;
-  background: #b2daff;
+  background: #dadee2;
   border-radius: 3px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -39,7 +39,7 @@
   width: 20px;
   height: 3px;
   left: 0;
-  background: #b2daff;
+  background: #dadee2;
   border-radius: 3px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -55,14 +55,14 @@
   border-radius: 4px;
   top: -2px;
   right: 0;
-  background: #b2daff;
+  background: #dadee2;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .title {
   display: block;
   text-align: center;
-  color: #fff;
+  color: #dadee2;
   font-weight: 600;
   font-size: 15px;
   padding-top: 20px;

@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { Header } from "./components/Header/Header";
 import { Content } from "./components/Content/Content";
+import { Clock } from "./components/Clock/Clock";
 
 import "./App.css";
 
@@ -14,6 +15,7 @@ class App extends Component {
           {" "}
           <Header />
           <Content activities={activities} />
+          <Clock />
         </div>
       </div>
     );

@@ -1,7 +1,7 @@
 .content {
   position: relative;
   overflow: hidden;
-  background-color: lightgrey;
+  /* background-color: #4191dd; */
   /* margin-bottom: 20px; */
 }
 
@@ -11,5 +11,5 @@
   left: 40px;
   bottom: 0;
   width: 3px;
-  background: #ebebeb;
+  background: #dadee2;
 }
