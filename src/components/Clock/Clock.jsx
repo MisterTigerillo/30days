@@ -39,3 +39,8 @@ export class Clock extends Component {
     );
   }
 }
+
+// comments can make code readable
+// Welcometo 30DaysOfJavascript
+/* comments can make code readable, 
+easy to reuse and informative */

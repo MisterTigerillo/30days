@@ -1,5 +1,9 @@
 .header {
   position: relative;
+  top: 10%;
+  left: 1%;
+  border-radius: 1em;
+  width: 98%;
   height: 60px;
   background-color: brown;
 
